@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta name="theme-color" content="#E92F3D">
+    <meta name="title" content="Web pizzeria">
+    <meta name="description" content="Landing page para una pizzeria">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://josericardope.github.io/pizzeria/">
+    <meta property="og:title" content="Landing page para pizzeria">
+    <meta property="og:description" content="Diseño landing page con html5, css3, y javascript.">
+    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://josericardope.github.io/pizzeria/">
+    <meta property="twitter:title" content="Landing page para pizzeria">
+    <meta property="twitter:description" content="Diseño landing page con html5, css3, y javascript.">
+    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <script src="https://kit.fontawesome.com/849e8c00db.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+    <title>Pizzería JRPE</title>
+  </head>
+  <body>
+    <!--header-->
+    <div class="menu-principal">
+      <div class="logo" id="logo">
+        <img src="img/logo.png" alt="Logo pizzería JRPE" />
+      </div>
+
+      <div class="menu-bar" id="menuBar">
+        <i class="fas fa-angle-right" id="btnMenuClose"></i>
+        <nav class="enlaces" id="enlaces">
+          <ul>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#equipo">Equipo</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <div class="sociales">
+          <a href=""><span class="fab fa-facebook"></span></a>
+          <a href=""><span class="fab fa-instagram"></span></a>
+          <a href=""><span class="fab fa-twitter"></span></a>
+          <a href=""><span class="fab fa-youtube"></span></a>
+        </div>
+      </div>
+
+      <i class="fas fa-bars" id="btnMenuOpen"></i>
+    </div>
+
+    <!--Slider o carrusel de imágenes-->
+    <section class="menu-productos" id="menu-productos">
+      <div class="container-principal" id="container-principal">
+        <button class="btn-izquierda" id="btn-izquierda">
+          <span class="fas fa-angle-left"></span>
+        </button>
+
+        <div class="slider" id="slider">
+          <div class="container-productos" id="container-productos">
+            <div class="descripcion-productos">
+              <h2>Producto <b>premium</b></h2>
+              <h1>Peperonni</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum omnis eveniet deleniti quisquam voluptas possimus.
+
+                <button class="btn" id="btn">
+                  ¡Pídela Aquí!<span class="fas fa-angle-right"></span>
+                </button>
+              </p>
+            </div>
+
+            <div class="imagen-productos" id="imagen-productos">
+              <img src="img/menu/peperoni.png" alt="" />
+            </div>
+          </div>
+          <div class="container-productos" id="container-productos">
+            <div class="descripcion-productos">
+              <h2>Producto <b>premium</b></h2>
+              <h1>Especial</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum omnis eveniet deleniti quisquam voluptas possimus rem
+                repudiandae at laboriosam dolor.
+
+                <button class="btn" id="btn">
+                  ¡Pídela Aquí!<span class="fas fa-angle-right"></span>
+                </button>
+              </p>
+            </div>
+
+            <div class="imagen-productos" id="imagen-productos">
+              <img src="img/menu/especial.png" alt="" />
+            </div>
+          </div>
+          <div class="container-productos" id="container-productos">
+            <div class="descripcion-productos">
+              <h2>Producto <b>básico</b></h2>
+              <h1>Margarita</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum omnis eveniet deleniti quisquam voluptas possimus rem
+                repudiandae at laboriosam dolor.
+
+                <button class="btn" id="btn">
+                  ¡Pídela Aquí!<span class="fas fa-angle-right"></span>
+                </button>
+              </p>
+            </div>
+
+            <div class="imagen-productos" id="imagen-productos">
+              <img src="img/menu/margarita.png" alt="" />
+            </div>
+          </div>
+          <div class="container-productos" id="container-productos">
+            <div class="descripcion-productos">
+              <h2>Producto <b>premium</b></h2>
+              <h1>Americana</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum omnis eveniet deleniti quisquam voluptas possimus rem
+                repudiandae at laboriosam dolor.
+
+                <button class="btn" id="btn">
+                  ¡Pídela Aquí!<span class="fas fa-angle-right"></span>
+                </button>
+              </p>
+            </div>
+
+            <div class="imagen-productos" id="imagen-productos">
+              <img src="img/menu/americana.png" alt="" />
+            </div>
+          </div>
+          <div class="container-productos" id="container-productos">
+            <div class="descripcion-productos">
+              <h2>Producto <b>especial</b></h2>
+              <h1>Suprema</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatum omnis eveniet deleniti quisquam voluptas possimus rem
+                repudiandae at laboriosam dolor.
+
+                <button class="btn" id="btn">
+                  ¡Pídela Aquí!<span class="fas fa-angle-right"></span>
+                </button>
+              </p>
+            </div>
+
+            <div class="imagen-productos" id="imagen-productos">
+              <img src="img/menu/suprema.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <button class="btn-derecha" id="btn-derecha">
+          <span class="fas fa-angle-right"></span>
+        </button>
+      </div>
+    </section>
+
+    <!--Sección servicios-->
+    <section class="servicios" id="servicios">
+      <div class="servicios-titulos" id="servicios-titulos">
+        <h2 class="subtitulos">La mejor pizza del mundo</h2>
+        <h1 class="titulos">Bienvenidos a Pizzería JRPE</h1>
+      </div>
+
+      <div class="servicios-container container" id="servicios">
+        <div class="imagen-central">
+          <img src="img/mitad-mitad.png" alt="" />
+        </div>
+
+        <div class="items calidad" id="items">
+          <p><span class="fas fa-pizza-slice"></span></p>
+          <p class="titulo-item">Calidad</p>
+          <p class="texto-item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit, Odio.
+          </p>
+        </div>
+        <div class="items ingredientes" id="items">
+          <p><span class="fas fa-cheese"></span></p>
+          <p class="titulo-item">Ingredientes</p>
+          <p class="texto-item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit, Odio.
+          </p>
+        </div>
+        <div class="items rapidez" id="items">
+          <p><span class="fas fa-clock"></span></p>
+          <p class="titulo-item">Rápidez</p>
+          <p class="texto-item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit, Odio.
+          </p>
+        </div>
+        <div class="items delivery" id="items">
+          <p><span class="fas fa-shipping-fast"></span></p>
+          <p class="titulo-item">Delivery</p>
+          <p class="texto-item">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit, Odio.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Sección staff o equipo de trabajo-->
+    <section class="equipo" id="equipo">
+      <div class="persona" id="persona">
+        <img src="img/perfil1.png" alt="" class="persona-imagen" />
+        <div class="persona-info" id="persona-info">
+          <h2>Jesús Alonso</h2>
+          <p>Cheff Pizzero</p>
+          <div class="redes-sociales" id="redes-sociales">
+            <a href=""><span class="fab fa-facebook"></span></a>
+            <a href=""><span class="fab fa-instagram"></span></a>
+            <a href=""><span class="fab fa-twitter"></span></a>
+            <a href=""><span class="fab fa-linkedin"></span></a>
+          </div>
+        </div>
+      </div>
+      <div class="persona" id="persona">
+        <img src="img/perfil2.png" alt="" class="persona-imagen" />
+        <div class="persona-info" id="persona-info">
+          <h2>Eliza Smith</h2>
+          <p>Cheff</p>
+          <div class="redes-sociales" id="redes-sociales">
+            <a href=""><span class="fab fa-facebook"></span></a>
+            <a href=""><span class="fab fa-instagram"></span></a>
+            <a href=""><span class="fab fa-twitter"></span></a>
+            <a href=""><span class="fab fa-linkedin"></span></a>
+          </div>
+        </div>
+      </div>
+      <div class="persona" id="persona">
+        <img src="img/perfil3.png" alt="" class="persona-imagen" />
+        <div class="persona-info" id="persona-info">
+          <h2>Henry Griffit</h2>
+          <p>Asitente Cheff</p>
+          <div class="redes-sociales" id="redes-sociales">
+            <a href=""><span class="fab fa-facebook"></span></a>
+            <a href=""><span class="fab fa-instagram"></span></a>
+            <a href=""><span class="fab fa-twitter"></span></a>
+            <a href=""><span class="fab fa-linkedin"></span></a>
+          </div>
+        </div>
+      </div>
+      <div class="persona" id="persona">
+        <img src="img/perfil4.png" alt="" class="persona-imagen" />
+        <div class="persona-info" id="persona-info">
+          <h2>Paulina Vega</h2>
+          <p>Asistente</p>
+          <div class="redes-sociales" id="redes-sociales">
+            <a href=""><span class="fab fa-facebook"></span></a>
+            <a href=""><span class="fab fa-instagram"></span></a>
+            <a href=""><span class="fab fa-twitter"></span></a>
+            <a href=""><span class="fab fa-linkedin"></span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Sección Ingredientes-->
+    <section class="ingredientes" id="ingredientes">
+      <div class="ingre">
+        <img src="img/ingredientes1.jpg" alt="" class="imagen-ingre" />
+        <div class="info-ingre" id="info-ingre">
+          <p><span class="fas fa-cheese"></span></p>
+          <p class="txt-ingre">Quesos</p>
+        </div>
+      </div>
+      <div class="ingre">
+        <img src="img/ingredientes2.jpg" alt="" class="imagen-ingre" />
+        <div class="info-ingre" id="info-ingre">
+          <p><span class="fas fa-leaf"></span></p>
+          <p class="txt-ingre">Vegetales</p>
+        </div>
+      </div>
+      <div class="ingre">
+        <img src="img/ingredientes3.jpg" alt="" class="imagen-ingre" />
+        <div class="info-ingre" id="info-ingre">
+          <p><span class="fas fa-fill-drip"></span></p>
+          <p class="txt-ingre">Salsa</p>
+        </div>
+      </div>
+      <div class="ingre">
+        <img src="img/ingredientes4.jpg" alt="" class="imagen-ingre" />
+        <div class="info-ingre" id="info-ingre">
+          <p><span class="fas fa-drumstick-bite"></span></p>
+          <p class="txt-ingre">Carne</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección contacto (formulario) -->
+    <section class="contacto" id="contacto">
+      <div class="titulo-contacto" id="titulo-contacto">
+        <h2 class="subtitulos">Queremos conocer tu opinión</h2>
+        <h1 class="titulos">Contáctanos</h1>
+      </div>
+
+      <form action="" class="formulario" id="formulario">
+        <div class="two-fields">
+          <div class="inputConIcon">
+            <input
+              type="text"
+              name="nombre"
+              id="nombre"
+              class="input-nombre"
+              placeholder="Nombre"
+            />
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="inputConIcon">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="input-email"
+              placeholder="Email"
+            />
+            <i class="fas fa-envelope"></i>
+          </div>
+        </div>
+
+        <div class="fields">
+          <div class="inputConIcon textareaIcon">
+            <textarea
+              name="comentarios"
+              id="comentarios"
+              class="textarea"
+              placeholder="Ingrese sus comentarios"
+            ></textarea>
+            <i class="fas fa-comment"></i>
+          </div>
+        </div>
+
+        <div class="fields-btn">
+          <input type="submit" value="Enviar" class="btn btn-input" />
+        </div>
+      </form>
+    </section>
+
+    <!-- Sección alertas -->
+    <div class="alertas" id="alertas">
+      <div id="alertError" class="alert hide">
+        <span class="icono-alert fas fa-exclamation-circle"></span>
+        <span class="mensaje">Error: Campos de entrada vacíos.</span>
+      </div>
+
+      <div id="alertSuccess" class="alert hide">
+        <span class="icono-alert fas fa-check-circle"></span>
+        <span class="mensaje">¡Datos envíados! Gracias por contactarnos.</span>
+      </div>
+    </div>
+
+    <!-- Botón de ir arriba (la ubicación en el HTML no importa, yo lo puse acá, pero podría al inicio antes del header) -->
+    <div id="btn-top">
+      <span class="fas fa-angle-up"></span>
+    </div>
+
+    <!-- Sección footer -->
+    <footer>
+      <div class="sociales-metodo">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>Lorem ipsum dolor sit amet.</span>
+      </div>
+      <div class="sociales-metodo">
+        <i class="fas fa-envelope"></i>
+        <span>infoJRPE@gmail.com</span>
+      </div>
+      <div class="sociales-metodo">
+        <i class="fas fa-phone"></i>
+        <span>+22145223335</span>
+      </div>
+      <div class="sociales-metodo">
+        <i class="fab fa-twitter"></i>
+        <span>@jrpepizza</span>
+      </div>
+    </footer>
+
+    <script src="js/eventos.js"></script>
+  </body>
+</html>
